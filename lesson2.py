@@ -28,3 +28,6 @@ b="word"
 print(a+" "+b)  #concatination
 
 print(a*5)  # repeatation
+
+data = "12345"
+print(len(data))
