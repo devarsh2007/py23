@@ -6,7 +6,7 @@ print(name)
 text = '''
 sgusy
 hgsdysagdyu
-sajhgjs
+sajhgjs...
 '''
 print(text)
 
