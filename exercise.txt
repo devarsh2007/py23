@@ -1,3 +1,10 @@
 exercises
 --------------------------------------
 1) find area of circle , square , reactangle 
+
+2)  # check a latter is vowel or consonent 
+    # vowel -> a,e,i,o,u
+
+3) check user entered correct username and passwrod or not
+    username = abc123
+    password = 123123
