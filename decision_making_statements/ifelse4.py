@@ -4,7 +4,8 @@
 
 latter = input("enter a latter : ")
 
-if latter=="a" and latter=="e" and latter=="i" and latter=="o" and latter=="u":
+if latter=="a" or latter=="e" or latter=="i" or latter=="o" or latter=="u":
     print("vowel")
     
-    
+else:
+    print("consonent")   
