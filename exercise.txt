@@ -8,3 +8,15 @@ exercises
 3) check user entered correct username and passwrod or not
     username = abc123
     password = 123123
+
+4) Title: Scholarship Eligibility Based on Marks and Income
+    Ask the user for their academic percentage and family income.
+    If marks are above 90 and income is below 5L, give a full scholarship.
+    If marks are between 75-90 and income is between 5L-10L, give a 50% scholarship.
+    Otherwise, no scholarship is awarded.
+
+5) Title: Loan Approval Based on Salary and Credit Score
+    Ask the user for their monthly salary and credit score.
+    If salary is above 50K and credit score is above 750, approve the loan.
+    If salary is between 30K-50K and credit score is between 650-750, approve with conditions.
+    Otherwise, reject the loan application.
