@@ -20,3 +20,8 @@ exercises
     If salary is above 50K and credit score is above 750, approve the loan.
     If salary is between 30K-50K and credit score is between 650-750, approve with conditions.
     Otherwise, reject the loan application.
+
+6) print following pattern
+10 9 8 7...1
+
+1 3 5 7 9 .... 99  
