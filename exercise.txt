@@ -29,3 +29,15 @@ exercises
 1 4 9 16 25... 100
 
 a b c d e...z
+
+7) 
+a
+a b
+a b c
+a b c d
+
+a b c d
+a b c
+a b
+a
+
