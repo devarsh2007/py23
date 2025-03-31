@@ -46,3 +46,22 @@ a
 333
 22
 1
+
+functions
+----------------------------------------------
+1) create function getVolume
+    it has 3 argument length, width, depth 
+    all arguments are optional default values are 1 
+    it should return volume 
+
+2) create function getSeconds that will return total seconds of given hours, minutes and seconds 
+    it has 3 argument hour, minutes, seconds 
+    all arguments are optional default values are 0 
+    it should return total seconds
+
+3) create function getInches that will return total Inches of given meter, foot, inches 
+    it has 3 argument meter, foot, inches 
+    all arguments are optional default values are 0 
+    it should return total inches 
+ 
+ 
