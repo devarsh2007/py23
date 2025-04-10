@@ -68,4 +68,7 @@ functions
     all arguments are optional default values are 0 
     it should return total inches 
  
- 
+file
+------------------------------
+1)  # read data from one file and write to another file
+    # cut - paste
