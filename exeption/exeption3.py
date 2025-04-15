@@ -11,15 +11,16 @@ try:
         
 except ValueError:
     print("give valid input")
-    
+
 except TypeError:
     print("give valid type")
     
-except IndexError:
+except(IndexError,KeyError,KeyboardInterrupt):
     print("out of range")
     
 except:
     print("error")
     
-print("code...")
+finally:
+    print("code...")
     
