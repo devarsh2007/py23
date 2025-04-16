@@ -1,5 +1,8 @@
 # creating class 
 class person:
+    def __init__(self):
+        print("constructor called....")
+    
     def walk(self):
         print("i can walk")
         
