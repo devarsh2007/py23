@@ -10,6 +10,7 @@ class bank:
         self.count=count
         self.option=option
         self.amount=amount
+        self.l1=[]
         
     def widthdraw(self,amount):
         if amount>self.balance:
@@ -23,6 +24,7 @@ class bank:
             self.count+=1
             self.option = "withdraw"
             self.amount = amount
+            self.l1.append((self.count,self.option,self.amount))
             
             
     def deposit(self,amount):
@@ -33,7 +35,7 @@ class bank:
             self.count+=1
             self.option = "deposit"
             self.amount = amount
-            
+            self.l1.append((self.count,self.option,self.amount))
             
         
         else:
@@ -42,8 +44,14 @@ class bank:
     def history(self):
         # 1 withdraw 5000
         print("trasection history ")
-        print(f"{self.count} {self.option} {self.amount}")
-
+        # print(f"{self.l1}")
+        f1 = open("history.txt","a")
+        f1.write("\ntrasection history")
+        for i in self.l1:
+            i="\n"+str(i)
+            f1.write(str(i))
+            
+        f1.close()
             
     def mini_statement(self):
         print("name : ",self.name)
@@ -66,5 +74,6 @@ ac2 = bank("manthan",000000,"sbin001",120000)
 ac2.widthdraw(6000)
 ac2.deposit(6000)
 ac2.deposit(6000)
+ac2.widthdraw(10000)
 print(ac2.count)
 ac2.history()
