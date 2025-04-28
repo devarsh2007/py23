@@ -16,3 +16,13 @@ print(choice(l1))
 
 t1 = ('red','blue','green','yellow','black')
 print(choice(t1))
+
+l1=[1,2,3,4,5,6,7,8,9,0]
+print(choices(l1,k=2))
+
+shuffle(l1)
+shuffle(l1)
+
+print(l1)
+
+print(sample(l1,5))
