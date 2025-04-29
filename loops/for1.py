@@ -15,9 +15,13 @@ n = int(input("enter a number : "))
 
 for i in range(1,11,1):
     ans = n*i
+    if i==3:
+       continue
+    
     print(f"{n} x {i} = {ans}")
     print("-"*13)
-
+    
+   
 
 # ans = n*count
 # print(f"{n} x {count} = {ans}")
