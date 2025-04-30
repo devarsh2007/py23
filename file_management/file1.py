@@ -7,6 +7,6 @@ file = open("demo.txt","r")
     
 
 # print(file.read())
-print(file.read(1))
+print(file.read())
 
 file.close()

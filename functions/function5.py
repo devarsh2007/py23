@@ -8,14 +8,14 @@ def getsum(*n):
         
     return sum
 
-l1=[]
-choise = int(input("enter number of input : "))
+l1=[1,2,4,5,5]
+# choise = int(input("enter number of input : "))
 
-for i in range(choise):
-    value = int(input("enter value : "))
-    l1.append(value)
+# for i in range(choise):
+#     value = int(input("enter value : "))
+#     l1.append(value)
     
-# print(l1)
+# # print(l1)
 
 print(getsum(l1))
 
@@ -25,3 +25,5 @@ print(getsum(l1))
 #     a=a+l1[i] 
     
 # print(a)
+
+        

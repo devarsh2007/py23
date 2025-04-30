@@ -1,4 +1,0 @@
-12345hello world
-10 20 30
-1010101
-hello world

@@ -17,3 +17,5 @@ p1.talk()
 p2 = person()
 p2.walk()
 p2.talk()
+
+p3=person()

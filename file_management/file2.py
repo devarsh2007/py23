@@ -8,5 +8,9 @@ for i in obj:
             continue
         else:
             print(j,end="")
+            
+            
+# for i in obj.read():
+    
     
 obj.close()

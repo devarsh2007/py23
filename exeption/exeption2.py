@@ -1,5 +1,5 @@
 try:
-    file = open("../exercise.txt")
+    file = open("../exercise2.txt")
     
 except:
     print("give correct file name")

@@ -3,7 +3,7 @@ text = input("enter content : ")
 
 file = open(name,"w")
 
-file.write(text)
+file.write("\n"+text)
 print("data witten in file....")
 
 file.close()
