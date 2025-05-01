@@ -34,3 +34,4 @@ s1.get_details()
 
 t1 = teacher("devarsh",17,202,1,4)
 t1.teacher_details()
+t1.get_details()

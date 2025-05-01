@@ -1,12 +1,12 @@
 # 1) import filename
 # 2) from filename import fun
 
-# import maths as m
+import maths as m
 
-# m.add(2,4)
-# m.sub(3,6)
-# m.div(3,6)
-# m.mul(3,6)
+m.add(2,4)
+m.sub(3,6)
+m.div(3,6)
+m.mul(3,6)
 
 # from maths import add,div
 # add(3,4)
