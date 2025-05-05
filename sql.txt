@@ -1,0 +1,38 @@
+create a table
+----------------------------
+create table table_name(
+    column
+)
+
+create table employee(
+    id int primary key auto_increment,
+    name varchar(50),
+    salary int,
+    mail varchar(30)
+)
+
+insert
+-add row to table
+------------------------------------------
+1) insert into table_name(column,...) values(value,...)
+INSERT INTO employee(name,salary,mail) VALUES("param patel",12333,"param@gmail.com")
+
+2) insert into table_name VALUES(value....)
+INSERT INTO employee VALUES('' ,"manthan",12222,"abc@gamil.com")
+
+INSERT INTO employee (name, salary, mail) VALUES
+("Param Patel", 12333, "param@gmail.com"),
+("Ravi Sharma", 15000, "ravi@gmail.com"),
+("Neha Verma", 18000, "neha@gmail.com"),
+("Amit Singh", 20000, "amit@gmail.com"),
+("Priya Desai", 17000, "priya@gmail.com"),
+("Karan Mehta", 22000, "karan@gmail.com"),
+("Sneha Joshi", 16000, "sneha@gmail.com"),
+("Vikas Nair", 19500, "vikas@gmail.com"),
+("Anjali Thakur", 17500, "anjali@gmail.com"),
+("Rahul Yadav", 21000, "rahul@gmail.com");
+
+
+update
+delete
+select
