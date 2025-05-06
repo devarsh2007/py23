@@ -17,6 +17,7 @@ insert
 1) insert into table_name(column,...) values(value,...)
 INSERT INTO employee(name,salary,mail) VALUES("param patel",12333,"param@gmail.com")
 
+
 2) insert into table_name VALUES(value....)
 INSERT INTO employee VALUES('' ,"manthan",12222,"abc@gamil.com")
 
@@ -34,5 +35,44 @@ INSERT INTO employee (name, salary, mail) VALUES
 
 
 update
+update a record
+
+update table_name set field = value... where condition
+UPDATE employee SET name='devarsh' WHERE id=1
+
+UPDATE employee SET name='manthan' WHERE salary>20000;
+
+UPDATE employees SET reportsTo=1000 WHERE officeCode=4 OR officeCode=5 or officeCode=6
+
 delete
+delete a record
+delete from table_name where condition
+DELETE FROM employees WHERE officeCode=7
+DELETE FROM employees WHERE quantityOrdered>25 AND priceEach<100
+
 select
+fetch data from table
+
+select * from table_name
+SELECT * FROM orderdetails
+
+SELECT customerNumber as customers,amount as price FROM payments;
+
+SELECT paymentDate FROM payments WHERE amount>100000
+
+
+agregate function
+sum
+SELECT SUM(amount) as total FROM payments
+SELECT SUM(amount) FROM payments WHERE customerNumber=124
+
+count
+SELECT COUNT(customerNumber) FROM payments WHERE customerNumber=124
+SELECT COUNT(*) FROM employees WHERE officeCode=6
+
+SELECT COUNT(*) FROM payments WHERE paymentDate>='2005-01-01' AND paymentDate<='2005-12-31'
+
+
+min
+max
+avg
