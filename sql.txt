@@ -50,10 +50,16 @@ delete from table_name where condition
 DELETE FROM employees WHERE officeCode=7
 DELETE FROM employees WHERE quantityOrdered>25 AND priceEach<100
 
-select
+select *|field from table_name 
+where condition 
+Group by 
+having
+order by
+limit
+
 fetch data from table
 
-select * from table_name
+select * from table_name where condition ascending | desending limit(0,2)
 SELECT * FROM orderdetails
 
 SELECT customerNumber as customers,amount as price FROM payments;
@@ -74,5 +80,28 @@ SELECT COUNT(*) FROM payments WHERE paymentDate>='2005-01-01' AND paymentDate<='
 
 
 min
+SELECT MIN(amount) FROM payments
+
 max
+SELECT MAX(amount) FROM payments
+
 avg
+SELECT AVG(amount) FROM payments
+
+
+SELECT * FROM products ORDER BY buyPrice DESC;
+SELECT * FROM products ORDER BY buyPrice;
+
+select highest prices product detail
+
+SELECT productName,productCode,buyPrice FROM products order BY buyPrice DESC LIMIT 0,3
+
+SELECT productName,productCode,buyPrice FROM products order BY buyPrice  LIMIT 0,3
+
+SELECT * FROM employees ORDER BY firstName DESC
+
+
+Group BY
+SELECT customerNumber,SUM(amount),COUNT(*) FROM payments GROUP BY customerNumber
+
+SELECT customerNumber,SUM(amount),COUNT(*) FROM payments GROUP BY customerNumber HAVING COUNT(*)>5
